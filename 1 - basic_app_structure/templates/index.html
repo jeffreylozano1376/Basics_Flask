@@ -1,0 +1,16 @@
+<!--Document Type declaration; specifies type & ver. of web doc. for browser-->
+<!doctype html>
+<html>
+    <head>
+        <title>Home page</title>
+    </head>
+    <body>
+        <h1>Home Page!</h1>
+        <p>{{content}}</p>
+        <p>{{number}}</p>
+        {% for name in names %}
+            <p>{{name}}</p>
+        {% endfor %}
+
+    </body>
+</html>
